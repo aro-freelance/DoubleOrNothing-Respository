@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/results_fragment_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_player_buttons"
+    android:orientation="vertical"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottomdialog_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/dialog_style"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/sample_text"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottomdialog_bottom"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_dice_image" />
+
+    <Button
+        android:id="@+id/close_dialog_button"
+        style="@style/button_dialog"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp"
+        android:text="@string/stay_close_dialog_button"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottomdialog_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/double_or_nothing_button"
+        app:layout_constraintTop_toBottomOf="@+id/double_or_nothing_explanation_text" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintGuide_percent=".5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/moneyamount_textview_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:shadowColor="@color/steel_blue"
+        android:shadowRadius="50"
+        android:text="@string/money_amount"
+        android:textColor="@color/player_area_bg"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/dialog_dice_image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/dice_six"
+        android:contentDescription="@string/dice_image_descrip"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/double_or_nothing_button"
+        style="@style/button_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="4dp"
+        android:text="@string/double_or_nothing_button_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottomdialog_bottom"
+        app:layout_constraintStart_toStartOf="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintTop_toBottomOf="@+id/double_or_nothing_explanation_text" />
+
+    <TextView
+        android:id="@+id/double_or_nothing_explanation_text"
+        style="@style/dialog_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="bottom"
+        android:padding="4dp"
+        android:text="@string/double_nothing_explanation"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_bottomdialog_vertical_center"
+        app:layout_constraintTop_toBottomOf="@+id/moneyamount_textview_dialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

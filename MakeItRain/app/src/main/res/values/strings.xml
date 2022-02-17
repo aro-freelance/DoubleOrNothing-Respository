@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Double or Nothing</string>
+    <string name="you_have">You Have:</string>
+    <string name="show_info">Show Info</string>
+    <string name="make_it_rain">Make It Rain</string>
+    <string name="money_amount">$0.00</string>
+    <string name="test_string">test</string>
+    <string name="show_info_value">Jackpot!</string>
+    <string name="congrats">Congratulations! You are rich!</string>
+    <string name="jackpot">Pay 10% for odds</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="even_button">Even</string>
+    <string name="odd_button">Odd</string>
+    <string name="low_button">Low</string>
+    <string name="high_button">High</string>
+    <string name="one_button">One</string>
+    <string name="six_button">Six</string>
+    <string name="stay_close_dialog_button">Stay</string>
+    <string name="double_or_nothing_button_text">Double or Nothing!</string>
+    <string name="double_nothing_explanation">Double or Nothing: Risk your winnings on a game of high or low. If the roll is 4, 5, or 6 you double your winnings! But if it is 1, 2, or 3 you lose all your winnings.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="entry_1">Entry: $100</string>
+    <string name="payout_1">Payout: $200</string>
+    <string name="instructions_header">Instructions</string>
+    <string name="instructions_text">You start with $1,000. Will you make it big, or lose it all?</string>
+    <string name="even_rules">Even \n Entry - $100 , Payout - $200 \n You win if the dice roll is an even number.</string>
+    <string name="odd_rules_string">Odd \n Entry - $100 , Payout - $200 \n You win if the dice roll is an odd number.</string>
+    <string name="low_rules_string">Low \n Entry - $500 , Payout $1200 \n You win if the dice roll is a 1, 2 or 3.</string>
+    <string name="high_rules_string">High \n Entry - $500 , Payout - $1200 \n You win if the dice roll is a 4, 5 or 6.</string>
+    <string name="one_rules_string">One \n Entry - 20% (all in if less than $100) \n Payout - 3 times your entry \n You win if the dice roll is a 1.</string>
+    <string name="six_rules_string">Six \n Entry - 20% (all in if less than $100) \n Payout - 3 times your entry \n You win if the dice roll is a 6.</string>
+    <string name="rules_button_string">Rules</string>
+    <string name="game_over_header_string">Game Over</string>
+    <string name="new_high_score_string">New High Score!</string>
+    <string name="placeholder_end_screen_text">This is where the score and stuff will show</string>
+    <string name="enter_your_name">Enter your name...</string>
+    <string name="enter_highscore_button_string">Enter</string>
+    <string name="stay_button_string">Stay</string>
+    <string name="you_lose_button_text_string">Better Luck Next Time...</string>
+    <string name="you_win_button_string">Take Your Winnings!</string>
+    <string name="background_image_descrip">background</string>
+    <string name="dice_image_descrip">six sided die</string>
+    <string name="sample_text">This is some sample text so that I can see the font.</string>
+    <string name="new_game_string">Start a New Game</string>
+    <string name="rules_string">Rules</string>
+</resources>

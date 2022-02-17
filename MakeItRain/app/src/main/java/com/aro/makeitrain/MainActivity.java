@@ -32,15 +32,6 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*
-
-
-    //todo  sign and build apk
-
-     */
-
-    //todo animation dice sounds
-
     private TextView moneyAmountTextView;
     private ImageView diceImage;
 
